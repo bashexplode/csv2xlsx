@@ -40,27 +40,27 @@ python csv2xlsx.py -i /path/to/csv_folder -o combined.xlsx
 
 Basic combine:
 ```bash
-python csvs_to_excel.py -i ./csvs -o combined.xlsx
+python csv2xlsx.py -i ./csvs -o combined.xlsx
 ```
 
 Force tab-delimited:
 ```bash
-python csvs_to_excel.py -i ./csvs -o combined.xlsx --delimiter "\t"
+python csv2xlsx.py -i ./csvs -o combined.xlsx --delimiter "\t"
 ```
 
 Recurse through subfolders:
 ```bash
-python csvs_to_excel.py -i ./csvs -o combined.xlsx -r
+python csv2xlsx.py -i ./csvs -o combined.xlsx -r
 ```
 
 Quiet mode:
 ```bash
-python csvs_to_excel.py -i ./csvs -o combined.xlsx -q
+python csv2xlsx.py -i ./csvs -o combined.xlsx -q
 ```
 
 Custom encoding (e.g., Windows-1252):
 ```bash
-python csvs_to_excel.py -i ./csvs -o combined.xlsx --encoding cp1252
+python csv2xlsx.py -i ./csvs -o combined.xlsx --encoding cp1252
 ```
 
 ## Notes
